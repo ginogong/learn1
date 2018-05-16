@@ -2,7 +2,9 @@
 from __future__ import division
 import sys, pygame, time, random
 from pygame.locals import *
-'''this is a tank game'''
+'''this is a tank game
+gino change for test
+'''
 class TankMain(object):
 	width  = 600
 	print sys.path
