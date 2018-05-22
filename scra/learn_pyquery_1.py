@@ -32,7 +32,14 @@ doc = pq(html)
 #查找元素
 ul = doc('ul')
 lists = ul.find('li a ')
-print(len(lists))
+# 查找直接子元素
+#print(len(lists))
+
+#查找父元素 
+#print(ul.parents())
+#查找兄弟的元素 一个CLASS中间以空格分隔时 用2个。来表示
+print(doc('.aide.nt').siblings())
+
 
 
 
